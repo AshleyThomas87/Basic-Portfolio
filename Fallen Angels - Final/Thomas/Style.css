@@ -1,0 +1,383 @@
+#container{
+    background-image: url(images/webb.png);
+    display: grid;
+    font-family: PMingLiU-ExtB;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+    "titleBox titleBox"
+    "navBox empBox"
+    "navBox programBox"
+    "navBox eduBox"
+    "foot foot";
+}
+
+#titleBox{
+    background: rgba(79, 25, 80, 0.795);    
+    grid-area: titleBox;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#titleInnerBox{ 
+    margin: 20px 30px 30px 30px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 10px white;
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+}
+
+
+#TitleHalo{
+    height: 60px;
+    width: 60px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: PMingLiU-ExtB;
+    font-size: 50px;
+}
+
+
+#navBox{
+    background: rgba(79, 25, 80, 0.795);
+    grid-area: navBox;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    
+}
+
+
+#navInnerBox{
+    background-color: rgb(216, 212, 212);
+    margin: 50px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 10px white;
+    text-align: center;
+    font-size: 18px;
+    font-family: PMingLiU-ExtB;
+    font-weight: bold;
+}
+
+
+#navPic{
+    height: 150px;
+    width: 210px;
+    margin: 30px 10px 10px 25px;
+    box-shadow: 0 10px 30px rgba(24, 22, 24, 0.89);
+    border: groove;
+}
+
+
+#navpic2{
+    height: 150px;
+    width: 210px;
+    margin: 30px 10px 10px 25px;
+    box-shadow: 0 10px 30px rgba(24, 22, 24, 0.89);
+    border: groove;
+}
+
+
+.navlink{
+    color: purple;
+}
+
+#links {
+    font-size: 18px;
+    color: purple;
+    font-family: PMingLiU-ExtB;
+    text-decoration: none;
+}
+
+.navlink:hover{
+    transform: scale(.9);
+}
+
+
+#empBox{
+    background-color: rgba(94, 92, 92, 0.911);
+    grid-area: empBox;
+    margin: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+#empInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px white;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "empPic empInfo";
+}
+
+#empPic{
+    grid-area: empPic;
+    height: 250px;
+    width: 275px;
+    margin: 40px 30px 50px 50px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    border: groove;
+}
+
+
+#empInfo{
+    grid-area: empInfo;
+    line-height: 35px;
+    font-family: PMingLiU-ExtB;
+    margin: 20px 20px 20px 10px;
+    padding: 30px 10px 10px 10px;;
+    text-align: center;
+    border: groove;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+
+}
+
+
+#programBox{
+    background-color: rgba(94, 92, 92, 0.911);
+    grid-area: programBox;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    margin: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+#programInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px white;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: 
+    "programInfo programPic1"
+    "programInfo programPic2";
+}
+
+
+#programPic1 {
+    grid-area: programPic1;
+    height: 150px;
+    width: 220px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    border: groove;
+    margin: 20px 20px 10px 70px;
+}
+
+#programPic1:hover {
+    width: 150px;
+    height:175px;
+    transform: scale(3.0);
+}
+
+
+
+#programPic2 {
+    grid-area: programPic2;
+    height: 150px;
+    width: 220px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    border: groove;
+    margin: 10px 20px 20px 70px;
+}
+
+
+#programInfo{
+    grid-area: programInfo;
+    line-height: 35px;
+    font-family: PMingLiU-ExtB;
+    margin: 20px 20px 30px 20px;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    border: groove;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#eduBox{
+    background-color: rgba(94, 92, 92, 0.911);
+    grid-area: eduBox;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#eduInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 10px white;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "eduPic eduInfo"
+    "eduPic2 eduInfo";
+}
+
+
+#eduInfo{
+    grid-area: eduInfo;
+    line-height: 35px;
+    font-family: PMingLiU-ExtB;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    padding: 40px 20px 20px 20px;
+    border: groove;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#eduPic{
+    grid-area: eduPic;
+    width: 220px;
+    height: 150px;
+    border: groove;
+    margin: 10px 10px 10px 35px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#eduPic2{
+    grid-area: eduPic2;
+    width: 220px;
+    height: 150px;
+    border: groove;
+    margin: 10px 10px 10px 35px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+
+
+#foot{
+    background: rgba(79, 25, 80, 0.795); 
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    grid-area: foot;
+}
+
+
+#footerInnerBox{
+     background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 10px white;
+    
+}
+
+
+#quote {
+    text-align: center;
+    font-family:PMingLiU-ExtB;
+    font-size: 30px;
+    color: rgb(138, 136, 136);
+    text-shadow: 1px 1px  #454545;
+   
+    
+
+}
+
+#wingsleft {
+    margin-right: 10px;
+    margin-bottom: -80px;
+    margin-left: 360px;
+    padding-top: 10px;
+
+}
+
+
+#wingsright { 
+    float: right;
+    margin-left: 10px;
+    margin-top: -130px;
+    margin-right: 350px;
+    padding-top: 10px;
+   
+}
+
+
+/* MEDIA QUERY FOR iPAD */
+
+@media(max-width: 768px){
+    #empPic{
+        width: 150px;
+        height: 140px;
+        margin: 30px 30px 30px 30px;
+    }
+
+
+    #empInfo{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+
+    #programPic1{
+        height: 120px;
+        width: 150px;
+        margin-left: 0px;
+    }
+    
+    
+    #programPic2{
+        height: 120px;
+        width: 150px;
+        margin-left: 0px;
+    }
+    
+    
+    #programInfo{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+
+    #eduPic{
+        width: 130px;
+        height: 120px;
+        }
+
+    #eduPic2{
+        width: 130px;
+        height: 120px;
+    }    
+
+    
+    
+    #eduInfo{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+
+    #navPic{
+        width: 100px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+
+    #navInnerBox{
+        font-size: 12px;
+        line-height: 50px;
+    }
+
+
+    #navpic2{
+        width: 100px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+}
+
+

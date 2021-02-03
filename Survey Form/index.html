@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header id="title">Arizona Casinos</header>
+
+        <p id="description">Arizona has a wide variety of hotel & casinos. No matter what part of the state you may live or
+            visiting there may be a casino near you. There are many things to enjoy while at the casino. Such as dinning, 
+            entertainment, and gambling. Many casinos these days also have hotels/resorts for you to stay at. Off from these 
+            hotels are golf courses. Arizona likes you to come stay and have a fun time while you're here.
+        </p>
+
+        <br>
+        <hr>
+
+        <div id="form">
+            <h1>Do you like to gamble and have a good time?</h1>
+
+
+            <select id="dropdown">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <br>
+            <hr>
+
+            <h1>What's your favorite thing about going to the casino?</h1>
+                 <textarea id="additionalinfo"></textarea>
+                 <br>
+                 <hr>
+
+
+
+            <h1>What Arizona Casino has the best food?</h1>
+
+            <select>
+                <option>Vee Quiva</option>
+                <option>Cliff Castle Casino</option>
+                <option>Arizona Casino</option>
+                <option>Talking Stick Hotel & Casino</option>
+                <option>Lone Butte Casino</option>
+                <option>Gila River Hotel & Casino</option>
+                <option>Wild Horse Pass</option>
+                <option>Harrah's AK-Chin Casino</option>
+            </select>
+
+            <br>
+            <hr>
+
+
+            <fieldset>
+                <legend>
+                    <h1>Would you stay at one of Arizona's Hotel and Casinos?</h1>
+
+                    <br>
+                    <label for="yes">
+                        <input id="yes" value="yes" type="radio" name="yes-no" checked>yes
+                    </label>
+                    <label for="no">
+                        <input id="no" value="no" type="radio" name="yes-no" checked>no
+                    </label>
+                
+                </legend>
+            </fieldset>
+
+            <br>
+            <hr>
+
+            <h1>Which casino do you prefer?</h1>
+            <br>
+            <p>Select all that apply:</p>
+            <br>
+            <label for="Vee Quiva"><input id="Vee Quiva" type="checkbox" name="Casinos" value="Vee Quiva" checked>Vee
+                Quiva
+            </label>
+            <br>
+
+            <label for="Cliff Castle Casino"><input id="Cliff Castle Casino" type="checkbox" name="Cliff Castle Casino"
+                    value="Cliff Castle Casino" checked>Cliff Castle Casino
+            </label>
+            <br>
+
+            <label for="Talking Stick Casino"><input id="Talking Stick Casino" type="checkbox"
+                    name="Talking Stick Casino" value="Talking Stick Casino" checked>Talking Stick Casino
+            </label>
+            <br>
+
+            <label for="Arizona Casino"><input id="Arizona Casino" type="checkbox" name="Arizona Casino"
+                    value="Arizona Casino" checked>Arizona Casino
+            </label>
+            <br>
+
+            <label for="Lone Butte Casino"><input id="Lone Butte Casino" type="checkbox" name="Lone Butte Casino"
+                value="Lone Butte Casino" checked>Lone Butte Casino
+            </label>
+            <br>
+
+            <label for="Gila River Hotels & Casinos"><input id="Gila River Hotels & Casinos" type="checkbox" name="Gila River Hotels & Casinos"
+                value="Gila River Hotels & Casinos" checked>Gila River Hotels & Casinos
+            <br>
+
+            <label for="Wild Horse Pass"><input id="Wild Horse Pass" type="checkbox" name="Wild Horse Pass"
+                value="Wild Horse Pass" checked>Wild Horse Pass
+            </label>
+            <br>
+
+            <label for="Harrah's AK-Chin Casino"><input id="Harrah's AK-Chin Casino" type="checkbox" name="Harrah's AK-Chin Casino"
+                value="Harrah's AK-Chin Casino" checked>Harrah's AK-Chin Casino
+            </label>
+
+            <br>
+            <hr>
+
+
+                <h1>Comments</h1>
+            <p>Please use the space below to share any additional information or any questions that you have about
+                staying at any Arizona Hotels & Casinos.</p>
+
+            <br>
+        
+
+            <textarea id="additionalinfo"></textarea>
+
+
+            <br>
+            <hr>
+
+            <form id="survey-form" action="/submit-survey-form"><h1>Contact Info</h1>
+                <br>
+                <label for="name" id="name-label">First Name</label>
+                <input type="text" placeholder="First Name" id="name" required>
+                <br>
+                <br>
+                <label for="name" id="name-label">Last Name</label>
+                <input type="text" placeholder="Last Name" id="name" required>
+                <br>
+                <br>
+                <label for="email" id="email-label">E-mail</label>
+                <input type="email" placeholder="Email Address"  id="email" required>
+                <br>
+                <br>
+                <label for="number" id="number-label">Age</label>
+                <input type="number" placeholder="Age" min="10" max="99"  id="number" required>
+                <br>
+                <br>
+
+                <button type="submit" id="submit">Submit</button>
+
+            </form>
+            <br>
+        
+            <hr>
+
+            <footer>Let's Have Fun!</footer>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

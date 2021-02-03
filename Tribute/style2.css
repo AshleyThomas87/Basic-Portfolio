@@ -1,0 +1,42 @@
+
+
+body {
+    background-color: rgba(0, 89, 255, 0.774);
+    width: 98%;
+}
+
+#container {
+   
+    border-style: groove;
+    border-color: orange;
+    border-width: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+header {
+    font-family: Impact;
+    font-size: 88px;
+    text-align: center;
+    text-shadow: 5px 5px lime;
+}
+
+p {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 2px lime;
+    
+}
+
+#image{ 
+    border-style: groove;
+    border-color: orange;
+    border-width: 6px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px yellow;
+}

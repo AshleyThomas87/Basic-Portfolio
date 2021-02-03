@@ -1,0 +1,74 @@
+
+
+body {
+    background-color: gold;
+}
+
+
+
+.container {
+    grid-template-columns: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+
+}
+
+#title {
+    font-family: Segoe script;
+    font-size: 72px;
+    text-align: center;
+    color: gold;
+    background-image: url(images/hotel-wallpaper-black.png);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#description {
+    font-family: Geneva;
+    font-size:18px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+    
+
+}
+
+h1 {
+    font-family: segoe script;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+#form {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#additionalinfo {
+    align-content: center;
+}
+
+footer {
+    font-family: Segoe script;
+    font-size: 36px;
+    text-align: center;
+    background-image: url(images/hotel-wallpaper-black.png);
+    color: gold;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+
+}

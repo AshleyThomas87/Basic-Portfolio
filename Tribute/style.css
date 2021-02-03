@@ -1,0 +1,115 @@
+
+
+body {
+    background-color: rgba(0, 110, 255, 0.678);
+}
+
+#main {
+    grid-template-columns: 30% 30% 30%; 
+    grid-row-gap: 10%;
+    grid-column-gap: 10%;
+    grid-template-areas:
+    "title title title"
+    "image image2 image3"
+    "h2 h2 h2"
+    "tribute-info tribute-info image4"
+    "footer footer footer"
+}
+
+#title {
+    font-family: Impact;
+    font-size: 88px;
+    text-align: center;
+    grid-area: "title";
+    text-shadow: 5px 5px lime;
+    
+    
+}
+
+#img-div {
+   background-color: orange;
+   margin: 10px 10px 10px 10px;
+   padding-top: 20px;
+   padding-bottom: 5px;
+}
+
+#image {
+    grid-area: "image";
+    margin-left: 7%;
+    box-shadow: 3px 5px yellow;
+    border-style: solid;
+    border-color: lime;
+    border-width: 5px;
+    background-image: url(images/checkerboard.png);
+}
+
+#image2 {
+    grid-area: "image2";
+    position: relative;
+    margin-left: 7%;
+    box-shadow: 3px 5px yellow;
+    border-style: solid;
+    border-color: lime;
+    border-width: 5px;
+    
+
+}
+
+#image3 {
+    grid-area: "image3";
+    margin-left: 7%;
+    box-shadow: 3px 5px yellow;
+    border-style: solid;
+    border-color: lime;
+    border-width: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#tribute-info {
+    grid-area: "tribute-info";
+    border-style: solid;
+    border-color: orange;
+    border-width: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+h2 {
+    grid-area: "h2";
+    font-family: Impact;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+p {
+    font-size: 18px;
+    
+}
+
+#image4 {
+    grid-area: "image4";
+    width: 25%;
+    border-style: solid;
+    border-color: orange;
+    border-width: 5px;
+    display: flex;
+}
+
+footer {
+    font-family: Impact;
+    font-size: 36px;
+    text-align: center;
+    grid-area: "footer";
+    text-shadow: 3px 3px lime;
+}
+
+#tribute-link {
+    text-align: center;
+}

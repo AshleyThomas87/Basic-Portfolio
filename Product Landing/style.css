@@ -1,0 +1,162 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    /* margin: 5% 5% 5% 5%;
+     */
+    
+}
+
+main {
+    margin: 5% 5% 5% 5%;
+}
+
+#container {
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    grid-template-rows: 25% 25% 25%;
+    grid-template-areas:
+    "header header header" 
+    "form section section"
+    "footer footer footer"    
+}
+
+@media (max-height: 1024px) {
+    #container {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 5%;
+        grid-template-rows: 25% 25% 25%;
+        grid-template-areas:
+        "header header header" 
+        "form section section"
+        "footer footer footer"    
+    }
+
+  
+
+}
+
+@media (min-width: 768px) {
+    #container {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 5%;
+        grid-template-rows: 25% 25% 25%;
+        grid-template-areas:
+        "header header header" 
+        "form section section"
+        "footer footer footer"    
+    }
+
+   
+}
+
+#header {
+    background-color: orange;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    font-family: Cambria;
+    font-size: 125px; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content: center;
+    grid-area: header;
+      
+   
+}
+
+
+
+
+#header-img {
+   
+    width: 25%;
+    
+   
+    
+}
+
+#nav-bar {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.26);
+    font-family: 'Lucida Sans';
+    font-size: 24px;
+    top: 0%;
+    width: 89%;
+    
+   
+    
+}
+
+nav li {
+    margin: 5%;
+    display: inline;
+
+}
+
+nav ul {
+    padding: 1px;
+}
+
+#form {
+    grid-area: form;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 24px;
+    margin-left: 5%;
+    grid-template-areas: 
+    "product f1 services"
+    
+   
+}
+
+#f1 {
+    grid-area: f1;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+#services {
+    grid-area: services;
+}
+
+#product {
+    grid-area: product;
+}
+
+section {
+    grid-area: section;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 24px;
+    font-style: bold;
+    padding-top: 3px;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.253);
+
+}
+
+footer {
+    grid-area: footer;
+   
+
+}
+#logo{
+    width: 99%;
+}
+
+

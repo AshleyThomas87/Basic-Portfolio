@@ -1,0 +1,325 @@
+body {
+  background-image:url(Images/webb.png);
+}
+.quote {
+  font-weight: bolder;
+  
+}
+.gift-basket {
+  margin-left: -50px;
+}
+i {
+  font-size: 22px;
+}
+.cox-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+    margin-top: 10px;
+}
+.carmax-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.costcutters-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.chase-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.foodbank-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.frys-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.goodwill-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.lyft-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.mcdonalds-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.phoenix-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.srp-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.tmobile-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.samsung-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.google-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.nike-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.chevy-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.walmart-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 3px 3px 3px rgb(29, 29, 29);
+  margin-top: 10px;
+}
+.female-angel {
+ float: right;
+ margin-top: -215px;
+ height: 270px;
+ width: 519px;
+ box-shadow: 0px 5px 5px 5px rgb(48, 47, 47);
+ margin-right: -43px;
+}
+a {
+  color: black;
+}
+.angel-links {
+  box-shadow: 0px 10px 10px 10px rgb(78, 78, 78);
+  border: double rgba(79, 25, 80, 0.795);
+  background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111)); 
+}
+.jumbotron {
+  box-shadow: 0px 10px 10px 10px rgb(78, 78, 78);
+  border: double rgba(79, 25, 80, 0.795);
+  background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111)); 
+}
+.link-button {
+  height: 50px;
+  width: 200px;
+  box-shadow: 0px 2px 2px 2px  rgb(179, 177, 177);
+  font-family: PMingLiU-ExtB;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 675px;
+}
+.quote {
+  font-family: PMingLiU-ExtB;
+  font-size: 25px;
+
+}
+.title {
+  font-family: PMingLiU-ExtB;
+  font-weight: bolder;
+  font-size: 70px;
+  text-align: left;
+}
+.trythis {
+  margin-top: -65px;
+}
+.mission-font1 {
+  font-family: PMingLiU-ExtB;
+  font-weight: bolder;
+}
+.mission-font2 {
+  font-family: PMingLiU-ExtB;
+  font-weight:bolder;
+}
+.partner-font {
+  font-family: PMingLiU-ExtB;
+  font-weight:bolder;
+  font-size: 30px;
+}
+.partner-card {
+  border: double rgba(79, 25, 80, 0.795);
+  background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+  box-shadow: 0px 2px 2px 2px  rgb(179, 177, 177);
+  width: 337px;
+
+}
+.angel-navbar {
+  border: double rgba(79, 25, 80, 0.795);
+  background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+  box-shadow: 0px 2px 2px 2px  rgb(179, 177, 177);
+}
+.contact-font {
+  font-family: PMingLiU-ExtB;
+  font-weight:bolder;
+  
+}
+.mission-card {
+  border: double rgba(79, 25, 80, 0.795);
+  background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+  box-shadow: 0px 2px 2px 2px  rgb(179, 177, 177);
+}
+.gift-card {
+  background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+  box-shadow: 0px 2px 2px 2px  rgb(179, 177, 177);
+}
+.contact-card {
+  background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+  box-shadow: 0px 2px 2px 2px  rgb(179, 177, 177);
+}
+.male-angel {
+  height: 350px;
+}
+.basket-font {
+  font-family: PMingLiU-ExtB;
+  font-weight: bolder;
+}
+.app-button{
+  font-family: PMingLiU-ExtB;
+  text-align: center;
+  font-weight: bolder;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+h1, h5 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: PMingLiU-ExtB;  
+}
+.name {
+  width: 300px;
+}
+.email {
+  width: 300px;
+}
+.phone {
+  width: 300px;
+}
+.message {
+  width: 300px;
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}

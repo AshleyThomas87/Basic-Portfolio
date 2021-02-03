@@ -1,0 +1,414 @@
+#container{
+    background-image: url(images/webb.png);
+    display: grid;
+    font-family: PMingLiU-ExtB;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: 
+    "titleBox titleBox"
+    "navBox utilitiesBox"
+    "navBox phonesBox"
+    "navBox halfwayhouseBox"
+    "navBox singleparentBox"
+    "foot foot";
+}
+
+#titleBox{
+    background: rgba(79, 25, 80, 0.795);    
+    grid-area: titleBox;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#titleInnerBox{ 
+    margin: 20px 30px 30px 30px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 10px white;
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+}
+
+
+#TitleHalo{
+    height: 60px;
+    width: 60px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: PMingLiU-ExtB;
+    font-size: 50px;
+}
+
+
+#navBox{
+    background: rgba(79, 25, 80, 0.795);
+    grid-area: navBox;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    
+}
+
+
+#navInnerBox{
+    background-color: rgb(216, 212, 212);
+    margin: 50px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 10px white;
+    text-align: center;
+    font-size: 18px;
+    font-family: PMingLiU-ExtB;
+    font-weight: bold;
+}
+
+
+#navPic{
+    height: 150px;
+    width: 210px;
+    margin: 30px 10px 10px 25px;
+    box-shadow: 0 10px 30px rgba(24, 22, 24, 0.89);
+    border: groove;
+}
+
+
+#navpic2{
+    height: 150px;
+    width: 210px;
+    margin: 30px 10px 10px 25px;
+    box-shadow: 0 10px 30px rgba(24, 22, 24, 0.89);
+    border: groove;
+}
+
+
+.navlink{
+    color: purple;
+}
+
+
+#links{
+    font-size: 18px;
+    color: purple;
+    font-family: PMingLiU-ExtB;
+    text-decoration: none;
+}
+
+
+.navlink:hover{
+    transform: scale(.9);
+}
+
+
+
+#utilitiesBox{
+    background-color: rgba(94, 92, 92, 0.911);
+    grid-area: utilitiesBox;
+    margin: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+#utilitiesInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px white;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 250px;
+    grid-template-areas: 
+    "utilitiesPic utilitiesInfo";
+}
+
+#utilitiesPic{
+    grid-area: utilitiesPic;
+    height: 200px;
+    width: 250px;
+    margin: 10px 30px 50px 50px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    border: groove;
+}
+
+
+#utilitiesInfo{
+    grid-area: utilitiesInfo;
+    padding: 20px 20px 20px 20px;
+    line-height: 35px;
+    font-family: PMingLiU-ExtB;
+    margin: 20px 20px 30px 10px;
+    text-align: center;
+    border: groove;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+
+}
+
+
+#phonesBox{
+    background-color: rgba(94, 92, 92, 0.911);
+    grid-area: phonesBox;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    margin: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+#phonesInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px white;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "phonesInfo phonesPic1"
+    "phonesInfo phonesPic2";
+}
+
+
+#phonesPic1{
+    grid-area: phonesPic1;
+    height: 130px;
+    width: 200px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    border: groove;
+    margin: 20px 20px 10px 20px;
+}
+
+
+#phonesPic2{
+    grid-area: phonesPic2;
+    height: 130px;
+    width: 200px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    border: groove;
+    margin: 10px 20px 20px 20px;
+}
+
+
+#phonesInfo{
+    grid-area: phonesInfo;
+    line-height: 40px;
+    font-family: PMingLiU-ExtB;
+    margin: 20px 20px 30px 10px;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    border: groove;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#halfwayhouseBox{
+    background-color: rgba(94, 92, 92, 0.911);
+    grid-area: halfwayhouseBox;
+    margin: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#halfwayHouseInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "halfwayHousePic halfwayHouseInfo";
+}
+
+
+#halfwayHousePic{
+    grid-area: halfwayHousePic;
+    height: 225px;
+    width: 300px;
+    border: groove;
+    margin: 50px 20px 20px 40px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    }
+
+
+#halfwayHouseInfo{
+    grid-area: halfwayHouseInfo;
+    line-height: 35px;
+    font-family: PMingLiU-ExtB;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    border: groove;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+
+#singleparentBox{
+    background-color: rgba(94, 92, 92, 0.911);
+    grid-area: singleparentBox;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#singleParentInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 10px white;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "singleParentInfo singleParentPic"
+    "singleParentInfo singleParentPic2";
+}
+
+
+#singleParentInfo{
+    grid-area: singleParentInfo;
+    line-height: 35px;
+    font-family: PMingLiU-ExtB;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    border: groove;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#singleParentPic{
+    grid-area: singleParentPic;
+    width: 280px;
+    height: 200px;
+    border: groove;
+    margin: 10px 10px 10px 35px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+#singleParentPic2{
+    grid-area: singleParentPic2;
+    width: 280px;
+    height: 200px;
+    border: groove;
+    margin: 10px 10px 10px 35px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+}
+
+
+
+
+#foot{
+    background: rgba(79, 25, 80, 0.795); 
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22, .89);
+    grid-area: foot;
+}
+
+
+#footerInnerBox{
+    background: linear-gradient(100deg, rgb(133, 131, 131), white, rgb(116, 111, 111));
+    font-family: PMingLiU-ExtB;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 10px white;
+    
+}
+
+
+/* MEDIA QUERY FOR iPAD */
+
+@media(max-width: 768px){
+    #utilitiesPic{
+        width: 150px;
+        height: 140px;
+        margin: 30px 30px 30px 30px;
+    }
+
+
+    #utilitiesInfo{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    #phonesPic1{
+        height: 120px;
+        width: 150px;
+        margin-left: 0px;
+    }
+    
+    
+    #phonesPic2{
+        height: 120px;
+        width: 150px;
+        margin-left: 0px;
+    }
+    
+    
+    #phonesInfo{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    #halfwayHousePic{
+        width: 150px;
+        height: 140px;
+        margin: 70px 30px 30px 30px;
+        }
+    
+    
+    #halfwayHouseInfo{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    #singleParentInfo{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    
+    #singleParentPic{
+        height: 120px;
+        width: 150px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    
+    
+    #singleParentPic2{
+        height: 120px;
+        width: 150px;
+        margin-left: 0px;
+    }
+
+
+    #navPic{
+        width: 100px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+
+    #navInnerBox{
+        font-size: 12px;
+        line-height: 50px;
+    }
+
+
+    #navpic2{
+        width: 100px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+}
+
+
