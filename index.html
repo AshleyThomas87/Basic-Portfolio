@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Basic-Portfolio</title>
 </head>
 
-<body>
+<body id="container">
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 
@@ -33,49 +33,151 @@
             <li class="nav-item">
                 <a class="nav-link" href="Fallen Angels - Final/Home.html">Fallen Angels</a>
             </li>
-
+        </ul>
     </nav>
 
-    <div class="card">
-        <div class="card-body">Ashley Thomas</div>
-        <img src="assets/images/me.jpg" id="me">
 
+    <div class="w3-card w3-margin w3-margin-top" id="me">
+        <img src="assets/images/me.jpg" style="width:20%">
+        <div class="w3-container w3-white" style="width:20%">
+            <h4 id="hi"><b>Ashley Thomas</b></h4>
+            <p id="who">I'm a Front End Developer. I have a background in Visual Communications
+                (Graphic Arts). I have an eye for color and how things should look. I enjoy
+                photography and create hand crafted greeting cards.
+            </p>
+        </div>
+  
+    <div class="w3-container w3-padding-large w3-grey" id="info">
+        <h4 id="contact"><b>Contact Me</b></h4>
+        <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+          <div class="w3-third w3-dark-grey">
+            <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+            <p>athomas@banyanlabs.io</p>
+          </div>
+          <div class="w3-third w3-teal">
+            <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+            <p>Phoenix,Az 85032</p>
+          </div>
+          <div class="w3-third w3-dark-grey">
+            <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+            <p>602-338-1989</p>
+          </div>
+        </div>
+        <hr class="w3-opacity">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-section">
+            <label>Name</label>
+            <input class="w3-input w3-border" type="text" name="Name" required>
+          </div>
+          <div class="w3-section">
+            <label>Email</label>
+            <input class="w3-input w3-border" type="text" name="Email" required>
+          </div>
+          <div class="w3-section">
+            <label>Message</label>
+            <input class="w3-input w3-border" type="text" name="Message" required>
+          </div>
+          <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+        </form>
       </div>
 
-
-      
-      <div id="projects">
-        <div class="project-tile1">
-            <p>Touristsite</p>
-            <a href="Touristsite\index.html"><img src="assets/images/AZ4.jpg" id="t1pic"></a>
-        </div>
-
-        <div id="tile2">
-            <p>Tribute Page</p>
-            <a href="Tribute\index.html"><img src="assets/images/Nascar2.webp" id="t2pic"></a>
-        </div>
-
-        <div id="tile3">
-            <p>Survey Form</p>
-            <a href="Survey Form\index.html"><img src="assets/images/AZCasino7.jpg" id="t3pic"></a>
-        </div>
-
-        <div id="tile4">
-            <p>Product Landing</p>
-            <a href="Product Landing\index.html"><img src="assets/images/amazonlogo.png" id="t4pic"></a>
-        </div>
-
-        <div id="tile5">
-            <p>Technical Doc</p>
-            <a href="Technical Doc\index.html"><img src="assets/images/robot1.jfif" id="t5pic"></a>
-        </div>
-
-        <div id="tile6">
-            <p>Fallen Angels</p>
-            <a href="Fallen Angels - Final/Home.html"><img src="assets/images/Fallen Angels.png" id="t6pic"></a>
-        </div>
-
     </div>
+    <hr>
+
+    <br>
+    <br>
+
+
+    <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <img src="assets/images/AZ4.jpg" alt="AZ" style="width:25%">
+            <h3>Tourist Site</h3>
+            <p class="w3-opacity">Arizona</p>
+            <p>Arizona is the beholder of one or the seven wonders of the world. The Grand Canyon is
+                visited by many all year round.
+            </p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <img src="assets/images/Nascar2.webp" alt="Cars" style="width:25%">
+            <h3>Tribute Page</h3>
+            <p class="w3-opacity">NASCAR</p>
+            <p>Nascar races come twice a year to ISM Raceway here in Arizona. Season starts in Febuary 
+                and normally ends in November. Nascar is a sporting event thats loved by across the United
+                States. It's all about the tailgate parties, fans, speed and adrenaline.
+            </p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <img src="assets/images/AZCasino7.jpg" alt="Coins" style="width:25%">
+            <h3>Survey Form</h3>
+            <p class="w3-opacity">AZ Casinos</p>
+            <p>The Coyotes were founded in 1972, originally as the Winnipeg Jets of the World Hockey
+                Association (WHA). The Winnipeg Jets became part of the NHL in 1979 when the WHA
+                folded, and the team was eventually transferred to Phoenix in 1996.</p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <img src="assets/images/amazonlogo.png" alt="packages" style="width:25%">
+            <h3>Product Landing</h3>
+            <p class="w3-opacity">Amazon</p>
+            <p> Amazon provides you access to anything you can think of a the tip of your fingers.
+                Order online and recieve the next day. They povide many other packages and items as 
+                well. There's also Amazon Prime, Amazon Music, etc.
+            </p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <img src="assets/images/robot1.jfif" alt="Robot" style="width:25%">
+            <h3>Technical Doc</h3>
+            <p class="w3-opacity">Smart Devices</p>
+            <p>The world is constantly changing and so is technology. I feel like technology is always
+                advancing. As soon as a product is release theres already the next prototype being created.
+                We're moving into the world of the old cartoon the Jettsons. Technology devices help us run 
+                our busy lives and do half if not more of the things we don't have time for. 
+            </p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <img src="assets/images/Fallen Angels.png" alt="Angel" style="width:25%">
+            <h3>Fallen Angels</h3>
+            <p class="w3-opacity">Resources</p>
+            <p>Fallen Angels is a non-profit organization built on second chances and putting people first. 
+                We provide essential resources for formerly incarcerated men and women. Our mission is to help 
+                individuals transition back into soceity, address challenges, form meaningful relationships, 
+                pursue higher educational goals, and strengthen confidence in all people so they can be productive 
+                members of society.</p>
+        </div>
+    </div>
+<hr>
+
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Photography</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:50%">95%</div>
+    </div>
+    <p>Web Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:75%">85%</div>
+    </div>
+    <p>Photoshop</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>Illustrator</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+
+<br>
+<br>
+
+
+
+    <footer>CopyRight 2021</footer>
+
+   
 
 
 
